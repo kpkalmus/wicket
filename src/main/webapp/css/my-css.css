@@ -1,0 +1,34 @@
+body, html, * {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav {
+	top: 0%;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    border-left: 1px #000 solid;
+    box-shadow: 1px 0px 0px 0px #999 inset;
+	padding: 0px;
+}
+nav ul li {
+    float: left;
+    border-right: 1px #000 solid;
+    box-shadow: 1px 0px 0px 0px #999;
+    margin-left: 1px;
+    padding: 25px;
+    display: inline-block;
+    cursor: pointer;
+    color: #CCC;
+}
+nav ul li:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #FFF;
+}
