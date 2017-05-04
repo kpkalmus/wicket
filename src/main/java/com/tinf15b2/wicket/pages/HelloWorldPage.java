@@ -6,6 +6,7 @@ import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.Model;
 
 import com.tinf15b2.wicket.components.basics.NavigationPanel;
+import com.tinf15b2.wicket.components.panels.HalloDuDaPanel;
 
 public class HelloWorldPage extends WebPage {
 
@@ -13,6 +14,7 @@ public class HelloWorldPage extends WebPage {
 		IModel<String> message = Model.of("Hello World!");
 		add(new NavigationPanel("navigation"));
 		add(new Label("message", message));
+		add(new HalloDuDaPanel("hallo"));
 	}
 	
 }
